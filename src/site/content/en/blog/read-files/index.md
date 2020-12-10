@@ -8,9 +8,7 @@ updated: 2020-05-08
 authors:
  - kaycebasques
  - petelepage
-tags:
-  - blog
-  - storage
+tags: ERROR
 ---
 
 Being able to select and interact with files on the user's local device is
