@@ -3,12 +3,14 @@ title: Read files in JavaScript
 subhead: How to select files, read file metadata and content, and monitor read progress.
 description: |
   How to select files, read file metadata and content, and monitor read progress.
-date: 2010-06-18
+date: ERROR
 updated: 2020-05-08
 authors:
  - kaycebasques
  - petelepage
-tags: ERROR
+tags:
+  - blog
+  - storage
 ---
 
 Being able to select and interact with files on the user's local device is
