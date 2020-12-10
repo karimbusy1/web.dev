@@ -4,7 +4,7 @@ subhead: How to select files, read file metadata and content, and monitor read p
 description: |
   How to select files, read file metadata and content, and monitor read progress.
 date: 2019-12-31
-updated: 2020-05-08
+updated: ERROR
 authors:
  - kaycebasques
  - petelepage
@@ -12,8 +12,6 @@ tags:
   - blog
   - storage
 ---
-
-Add some text.
 
 Being able to select and interact with files on the user's local device is
 one of the most commonly used features of the web. It allows users to select
