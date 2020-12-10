@@ -4,7 +4,7 @@ subhead: How to select files, read file metadata and content, and monitor read p
 description: |
   How to select files, read file metadata and content, and monitor read progress.
 date: 2019-12-31
-updated: 2020-02-02
+updated: 2020-02-03
 authors:
  - kaycebasques
  - petelepage
