@@ -7,6 +7,6 @@ steps:
     args: ['run', 'cloud-secrets']
     env:
     - 'PROJECT_ID=$PROJECT_ID'
-  - name: 'gcr.io/web-dev-production-1/firebase'
-    args: ['deploy', '--project=web-dev-production-1']
+  - name: 'gcr.io/$PROJECT_ID/firebase'
+    args: ['deploy']
 timeout: 1200s
