@@ -1,7 +1,6 @@
 {
   "hosting": {
     "predeploy": [
-      "npm run firebase-config",
       "npm run build:prod",
       "npm run algolia"
     ],
