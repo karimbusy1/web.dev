@@ -15,7 +15,7 @@ This guide explains how to redirect content.
 
    ```yaml
    source: /path/to/old/page
-   destionation: /path/to/new/page
+   destination: /path/to/new/page
    ```
 
 ## Redirect multiple pages in a directory
