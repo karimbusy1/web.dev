@@ -17,6 +17,19 @@
 const {defaultLocale} = require('../site/_data/site');
 
 /**
+ * Takes the `inputPath` or `permalink` of a post or page and generates a permalink (output path).
+ * Basically the idea is to take the `inputPath` (where in the project the file's located),
+ * or take the existing permalink (a defined output for a file) and create a new permalink
+ * with the path being modified based on it's local.
+ *
+ * If the content is in the default locale (en), we remove the default local from the path.
+ * If the `inputPath`/`permalink` is not of the default locale we add `localized-files`
+ * to the path, so that the locale's folder is in a `localized-files` folder.
+ *
+ * @example outputPermalink({page: {inputPath: '/src/site/content/en/index.html'}}); // '/'
+ * @example outputPermalink({page: {inputPath: '/src/site/content/pl/index.html'}}); // '/localized-files/pl/'
+ * @example outputPermalink({permalink: 'en/index.html'}); // '/'
+ * @example outputPermalink({permalink: 'pl/index.html'}); // '/localized-files/pl/'
  *
  * @param {TODO} data
  * @returns {string}

@@ -27,8 +27,8 @@ is probably no longer useful because web.dev now uses a [flat URL structure][fla
 1. Add an entry similar to the following:
 
    ```yaml
-   source: /path/to/old/subdirectory/:patch
-   destination: /path/to/new/subdirectory/:patch
+   source: /path/to/old/subdirectory/:part
+   destination: /path/to/new/subdirectory/:part
    ```
 
 [source]: https://github.com/GoogleChrome/web.dev/blob/master/redirects.yaml

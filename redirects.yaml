@@ -5,7 +5,7 @@
 #      - These don't match subpaths, like "/foo/bar"
 #      - But it will match similar URLs "/foo", "/foo/" and "/foo/index.html"
 #
-#  (2) Group redirects, e.g., "source: /foo/:patch", which will match the top-level
+#  (2) Group redirects, e.g., "source: /foo/:part", which will match the top-level
 #      path (with the same rules as (1)) as well as any descendant paths
 #
 # WARNING! Redirects DO NOT take priority over static content.
@@ -119,26 +119,26 @@ redirects:
 # Before: web.dev/fast/remove-unused-code
 # After: web.dev/remove-unused-code
 
-- source: /accessible/:patch
-  destination: /:patch
+- source: /accessible/:part
+  destination: /:part
 
-- source: /discoverable/:patch
-  destination: /:patch
+- source: /discoverable/:part
+  destination: /:part
 
-- source: /fast/:patch
-  destination: /:patch
+- source: /fast/:part
+  destination: /:part
 
-- source: /installable/:patch
-  destination: /:patch
+- source: /installable/:part
+  destination: /:part
 
-- source: /reliable/:patch
-  destination: /:patch
+- source: /reliable/:part
+  destination: /:part
 
-- source: /secure/:patch
-  destination: /:patch
+- source: /secure/:part
+  destination: /:part
 
-- source: /en/handbook/:patch
-  destination: /handbook/:patch
+- source: /en/handbook/:part
+  destination: /handbook/:part
 
 # Redirect duplicative /discoverable URLs to /lighthouse-seo
 
