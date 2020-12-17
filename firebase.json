@@ -5,6 +5,26 @@
       "npm run algolia"
     ],
     "public": "dist",
+    "headers": [
+      {
+        "source": "*.html",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-store"
+          }
+        ]
+      },
+      {
+        "source": "*",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=0"
+          }
+        ]
+      }
+    ],
     "i18n": {
       "root": "/localized-files"
     },
