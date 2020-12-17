@@ -20,6 +20,7 @@ tags:
   - tools
 ---
 
+Adding some text here to see if the comment gets updated correctly.
 
 Good game developers know that to capitalise on the opportunity of a particular platform it's important to embrace the unique characteristics of that platform. So what are the unique characteristics of the web? And what defines a web game?
 
