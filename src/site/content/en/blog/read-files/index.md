@@ -29,7 +29,7 @@ This guide shows you how to:
 
 ## Select files {: #select }
 
-### HTML input element {: #select-input }
+#### HTML input element {: #select-input }
 
 The easiest way to allow users to select files is using the
 [`<input type="file">`][mdn-file-input] element, which is supported in every
