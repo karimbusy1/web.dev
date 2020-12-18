@@ -20,6 +20,7 @@ tags:
   - tools
 ---
 
+
 Good game developers know that to capitalise on the opportunity of a particular platform it's important to embrace the unique characteristics of that platform. So what are the unique characteristics of the web? And what defines a web game?
 
 At Google I/O 2019 I presented my thoughts on the state of the web games ecosystem, the current best practices for modern web game development, and where the industry is heading. In this blog post, I'll summarise some of the key points from my talk which you can watch in full on YouTube:
