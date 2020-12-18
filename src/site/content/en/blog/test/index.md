@@ -12,7 +12,6 @@ hero: hero.jpg
 alt: Overhead power line for a train with a number "2"
 tags:
   - blog
-draft: true
 ---
 
 Here's a line with more than 100 characters. It's on line 18. I'm testing to see if this linter works. I don't know what else to say. Hopefully this is long enough.

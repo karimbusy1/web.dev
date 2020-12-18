@@ -12,6 +12,12 @@ description: |
   The Web platform is very mature for game development nowadays.
   The key to building a modern web game is embracing the best practices of game design and monetization.
   This post provides provides guidance towards this goal.
+tags:
+  - blog # blog is a required tag for the article to show up in the blog.
+  - games
+  - game-design
+  - monetization
+  - tools
 ---
 
 
