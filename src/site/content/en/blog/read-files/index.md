@@ -3,8 +3,8 @@ title: Read files in JavaScript
 subhead: How to select files, read file metadata and content, and monitor read progress.
 description: |
   How to select files, read file metadata and content, and monitor read progress.
-date: 2019-12-31
-updated: 2020-02-03
+date: 2010-06-18
+updated: 2020-05-08
 authors:
  - kaycebasques
  - petelepage
@@ -29,7 +29,7 @@ This guide shows you how to:
 
 ## Select files {: #select }
 
-#### HTML input element {: #select-input }
+### HTML input element {: #select-input }
 
 The easiest way to allow users to select files is using the
 [`<input type="file">`][mdn-file-input] element, which is supported in every
