@@ -27,7 +27,7 @@ Here's a line with more than 100 characters. It's on line 18. I'm testing to see
   Here's a code block. It's not actually JS. But that shouldn't matter. We just need to check if it's more than 80 characters. This should do it.
 ```
 
-{% Glitch 'reviewbot' %}
+{% Glitch { id: 'reviewbot' } %}
 
 ## H2 woohoo
 
