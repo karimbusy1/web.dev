@@ -18,7 +18,7 @@ Here's a line with more than 100 characters. It's on line 18. I'm testing to see
 
 [Click here](https://google.com)
 
-![](flowers.jpg)
+<img src="flowers.jpg">
 
 ![](bart.gif)
 
