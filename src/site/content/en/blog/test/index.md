@@ -1,5 +1,5 @@
 ---
-title: Love your cache ❤️
+title: Test page
 subhead: Users loading your site a second time will use their cache, so make sure it works well.
 description: |
   First load performance is important, but it's not everything. Users who load your site a second
@@ -31,9 +31,17 @@ Here's a line with more than 100 characters. It's on line 18. I'm testing to see
 
 [In-page link to a non-existent section](#hello)
 
-[Out-page link to a non-existent section](https://wev.dev/#test)
+[In-page link to a valid section](#woohoo)
 
-## H2 woohoo
+[Out-page link to a non-existent section](https://web.dev/#test)
+
+[Out-page link to a valid section](/love-your-cache/#background)
+
+[Another out-page valid section link](https://developer.mozilla.org/en-US/docs/Web/API/URL#Browser_compatibility)
+
+[Another out-page invalid section link](https://developer.mozilla.org/en-US/docs/Web/API/URL#starwars)
+
+## H2 woohoo {: #woohoo }
 
 Some text
 
